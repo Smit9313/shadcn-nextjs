@@ -1,7 +1,7 @@
 import Container from "@/components/ui/container";
 import { Button } from "@/components/ui/button";
 import { ShoppingBag } from "lucide-react";
-// import ProductList from "@/components/ProductList";
+import ProductList from "@/components/ProductList";
 
 const products = [
   {
@@ -83,7 +83,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
-          {/* <ProductList items={products} /> */}
+          <ProductList items={products} />
         </div>
       </div>
     </Container>
